@@ -1,0 +1,43 @@
+#transparent-buttonpuzzle {
+    padding: 17px 30px; /* Padding di dalam tombol */
+    background-color: rgba(0, 0, 0, 0); /* Warna latar belakang transparan */
+    color: #333; /* Warna teks tombol */
+    border: 2px solid 	#1E90FF; /* Border dengan warna solid */
+    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+    cursor: pointer; /* Mengubah kursor menjadi pointer ketika diarahkan ke tombol */
+    transition: background-color 0.3s, color 0.3s; /* Transisi perubahan warna latar belakang dan teks tombol */
+  }
+  
+  #transparent-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Warna latar belakang transparan saat dihover */
+    color: #555; /* Warna teks tombol saat dihover */
+  }
+
+  #transparent-buttonpuzzle-answer {
+    padding: 8px 25px; /* Padding di dalam tombol */
+    background-color: #1E90FF ; /* Warna latar belakang transparan */
+    color: whitesmoke; /* Warna teks tombol */
+    border: 2px solid 	#1E90FF; /* Border dengan warna solid */
+    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+    cursor: pointer; /* Mengubah kursor menjadi pointer ketika diarahkan ke tombol */
+    /* transition: background-color 0.3s, color 0.3s; Transisi perubahan warna latar belakang dan teks tombol */
+  }
+  .box-span-puzzle {
+    display: inline-block; /* Mengubah span menjadi kotak dengan ukuran yang sesuai */
+    padding: 10px; /* Padding di dalam kotak */
+    background-color: #1E90FF; /* Warna latar belakang kotak */
+    border: 1px solid #ccc; /* Border kotak */
+    border-radius: 5px; /* Membuat sudut kotak menjadi melengkung */
+    color: whitesmoke;
+  }
+  .in-box-puzzle{
+    margin: 5px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 1000;
+    color:#1E90FF ;
+    background-color: floralwhite;
+    border: 1px solid aqua;
+    border-radius: 5px;
+  }
